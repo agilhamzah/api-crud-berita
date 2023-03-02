@@ -10,7 +10,7 @@ class PostM extends Model
     use HasFactory;
     
     protected $table = 'posts';
-    protected $filltable = [
+    protected $fillable = [
         'image',
         'title',
         'content',
